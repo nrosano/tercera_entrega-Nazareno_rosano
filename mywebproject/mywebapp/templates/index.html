@@ -1,0 +1,21 @@
+<!-- mywebapp/templates/index.html -->
+
+{% extends 'base.html' %}
+
+{% block title %}Página Principal{% endblock %}
+
+{% block content %}
+    <h1>Bienvenido a mi aplicación web</h1>
+    
+    <div>
+        <h2>Acciones:</h2>
+        <ul>
+            <li><a href="{% url 'categoria_form' %}">Agregar Categoría</a></li>
+            <li><a href="{% url 'producto_form' %}">Agregar Producto</a></li>
+            <li><a href="{% url 'cliente_form' %}">Agregar Cliente</a></li>
+            <li><a href="{% url 'search_productos' %}">Filtrar Productos</a></li>
+        </ul>
+    </div>
+
+    <!-- Puedes agregar más contenido aquí según sea necesario -->
+{% endblock %}
