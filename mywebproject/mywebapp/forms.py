@@ -13,7 +13,6 @@ class ProductoForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        # Personaliza el queryset para mostrar nombres de categorías en lugar de IDs
         self.fields['categoria'].queryset = Categoria.objects.all()
 
 class ClienteForm(forms.ModelForm):
