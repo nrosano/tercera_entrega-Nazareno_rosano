@@ -30,5 +30,5 @@ Explora la funcionalidad de búsqueda en la página Buscar Productos.
 Accede a la Página Principal y navega a las diferentes secciones.
 Utiliza los formularios para agregar nuevas categorías, productos y clientes.
 Explora la funcionalidad de búsqueda en la página Buscar Productos.
-
+ 
 """
